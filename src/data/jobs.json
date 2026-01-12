@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "company": "Google",
+        "role": "Software Engineer Intern",
+        "location": "Toronto, ON",
+        "deadline": "2025-02-15",
+        "type": "Internship",
+        "status": "Open",
+        "description": "Join Google as a Software Engineer Intern and work on cutting-edge technology projects that impact millions of users worldwide. Gain hands-on experience in software development, collaborate with talented engineers, and contribute to innovative solutions.",
+        "requirements": [
+            "Currently enrolled in a Bachelor's or Master's degree program in Computer Science or related field.",
+            "Strong programming skills in languages such as Python, Java, or C++.",
+            "Familiarity with data structures, algorithms, and software development principles.",
+            "Excellent problem-solving abilities and a passion for technology."
+        ]
+    },
+    {
+        "id": 2,
+        "company": "Amazon",
+        "role": "Frontend Developer",
+        "location": "Vancouver, BC",
+        "deadline": "2025-03-01",
+        "type": "Full-time",
+        "status": "Applied",
+        "description": "Amazon is seeking a skilled Frontend Developer to join our dynamic team. In this role, you will design and implement user-friendly web interfaces, optimize performance, and collaborate with cross-functional teams to deliver exceptional customer experiences."
+    },
+    {
+        "id": 3,
+        "company": "Shopify",
+        "role": "Backend Engineer",
+        "location": "Remote",
+        "deadline": "2025-02-28",
+        "type": "Full-time",
+        "status": "Closed",
+        "description": "Shopify is looking for a talented Backend Engineer to help build and maintain our e-commerce platform. You will work on scalable backend systems, develop APIs, and ensure the reliability and performance of our services to support millions of merchants worldwide."
+    },
+    {
+        "id": 4,
+        "company": "Ikea",
+        "role": "Warehouse Associate",
+        "location": "Winnipeg, MB",
+        "deadline": "2026-04-10",
+        "type": "Full-time",
+        "status": "Shortlisted",
+        "description": "Ikea is hiring Warehouse Associates to join our logistics team. In this role, you will be responsible for receiving, storing, and distributing products efficiently. You will work in a fast-paced environment, ensuring accurate inventory management and timely order fulfillment."
+    },
+    {
+        "id": 5,
+        "company": "Walmart",
+        "role": "Customer Service Representative",
+        "location": "Remote",
+        "deadline": "2026-02-28",
+        "type": "Part-time",
+        "status": "Open",
+        "description": "Walmart is seeking Customer Service Representatives to provide exceptional support to our customers. In this role, you will handle inquiries, resolve issues, and ensure a positive shopping experience. Join our team and help us deliver outstanding service to millions of customers."
+    }
+]

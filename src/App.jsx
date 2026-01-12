@@ -1,20 +1,22 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
 import { useState } from 'react'
+import Header from './components/Header.jsx'
+import JobList from './components/JobList.jsx'
+import JobForm from './components/JobForm.jsx'
+import jobsData from './data/jobs.json'
+import Body from './components/Body.jsx'
+
 
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [jobs] = useState(jobsData)
+  const [filter, setFilter] = useState("all jobs")
 
   return (
-    <div>
-      <h1> Hello React!</h1>
-      <p>you clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>
-        Click me
-      </button>
+    <div className="min-h-screen bg-gray-100 flex flex-col">
+      <Header />
+      <Body jobs={jobs} filter={filter} setFilter={setFilter} />
     </div>
   )
 }
